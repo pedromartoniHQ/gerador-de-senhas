@@ -8,10 +8,14 @@ def gerar_senhas(TAMANHO):
     return senha
 #---PARTE CENTRAL DO SISTEMA
 print("---BEM VINDO AO GERADOR DE SENHAS---")
-qtd = int(input("digite o tamanho da senha que voce deseja:"))
-senha_final = gerar_senhas(qtd)
 
-print(f"\nsua senha segura é:{senha_final}")
+try:
+    qtd = int(input("digite o tamanho da senha que voce deseja:"))
+    senha_final = gerar_senhas(qtd)
+    print(f"\nsua senha segura é:{senha_final}")
+except ValueError:
+    # Se o usuário digitar uma letra, o Python cai aqui em vez de dar erro
+    print("Erro: digite um número válido!")
 
   
 
