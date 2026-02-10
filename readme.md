@@ -9,9 +9,7 @@ Este projeto tem como objetivo praticar:
 - Organização e estruturação de código
 - Tratamento de erros de entrada do usuário
 
-É um projeto educacional voltado para iniciantes e candidatos a estágio.
 
----
 
 ## ⚙️ Funcionalidades
 - Geração de senhas aleatórias
