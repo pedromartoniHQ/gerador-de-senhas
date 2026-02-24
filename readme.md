@@ -20,14 +20,6 @@ Este projeto tem como objetivo praticar:
 
 ---
 
-## 🛡️ Conceitos de Cibersegurança Aplicados
-- Criação de senhas fortes
-- Aleatoriedade na geração de credenciais
-- Evita padrões previsíveis
-- Conscientização sobre boas práticas de autenticação
-
----
-
 ## 🚀 Tecnologias Utilizadas
 - Python 3
 - Bibliotecas padrão (`random`, `string`)
